@@ -66,6 +66,8 @@ print(num3 <= num4)
 print(num3 == num4)
 print(num3 != num4)
 
+# 9 დავალება
+
 x = int(input("please enter your number :"))
 
 print( x > x * 10)

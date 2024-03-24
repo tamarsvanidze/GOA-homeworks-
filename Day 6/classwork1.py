@@ -12,5 +12,5 @@ print(54 == 65)
 
 num1= int(input("enter first number: "))
 
-print(num1 < 0)
-print(num1 > 0)
+print(num1 <= 0)
+print(num1 >= 0)
