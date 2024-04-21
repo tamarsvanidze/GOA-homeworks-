@@ -4,11 +4,11 @@ if num1 >num2:
     print("goa")
 
 mum="jana"
-father= "dato"
+dad= "dato"
 sister= "mari"
 grandma= "irina"
 
-if mum== "jana" and father== "dato":
+if mum == "jana" and dad == "dato":
     print(True)
-if sister=="mari" and grandma== "irina":
+if sister =="mari" and grandma == "irina":
     print(True)
