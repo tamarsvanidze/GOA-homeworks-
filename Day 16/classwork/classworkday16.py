@@ -14,5 +14,5 @@ cars = []
 cars = ["mersedes", "bmw", "ferarri", "porsche", "bugati"]
 count = 0
 for car in cars:
-    count = count+ 1
+    count = count + 1
 print(count)    
