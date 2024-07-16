@@ -24,8 +24,6 @@ print(num1>10 and num1 % 9 ==0 )
 
 #მეხუტე დავალება
 
-print(5 > 14 and 42 < 3)
-print(7 >= 6 and 76 < 12)
 print(15 == 14 and 18 > 15)
 print(65>=54 and 12 == 12)
 
