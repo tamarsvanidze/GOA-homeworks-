@@ -70,6 +70,9 @@ def num4():
     while number > 0:
         number = int(input("enter the number: "))
     numbers.append(number) 
+    
+
+    print(numbers)
 
 num4()
           
