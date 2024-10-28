@@ -1,0 +1,21 @@
+.parent-div {
+    width: 70%;
+    background-color: rgb(231, 11, 11);
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.child-div {
+    width: 50%; 
+    font-size: 100px; 
+    background-color: rgb(102, 28, 199);
+    margin: 0 auto;
+}
+
+
+.child-div p {
+    font-size: 20%; 
+    margin: 0;
+}

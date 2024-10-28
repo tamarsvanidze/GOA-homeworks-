@@ -1,0 +1,14 @@
+.p1{
+    border-top: 2px dashed red;
+    border-bottom: 2px dashed red;
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+
+.p2 {
+    position: relative;
+    color: black;
+    font-size: 18px
+}

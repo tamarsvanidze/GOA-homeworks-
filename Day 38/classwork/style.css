@@ -1,0 +1,41 @@
+h1 {
+    text-decoration: underline;
+    color: blueviolet;
+    font-size: 45px;
+}
+
+h2 {
+    text-decoration:overline;
+    color: rgb(24, 15, 146);
+    font-size: 45px;
+}
+
+h3 {
+    text-decoration: line-through;
+    color: rgb(5, 107, 114);
+    font-size: 45px;
+}
+
+h4 {
+    text-decoration: underline overline;
+    color: rgb(245, 10, 10);
+    font-size: 45px;
+}
+
+h5 {
+    text-decoration: underline line-through;
+    color: rgb(226, 153, 17);
+    font-size: 45px;
+}
+
+h6 {
+    text-decoration: overline line-through;
+    color: rgb(185, 231, 19);
+    font-size: 45px;
+}
+
+p {
+    text-decoration: underline overline line-through;
+    color: rgb(44, 231, 20);
+    font-size: 45px;
+}

@@ -1,0 +1,14 @@
+.parent-div {
+    width: 1000px;
+    height: 1000px;
+    background-color: lightgray; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.parent-div img {
+    width: 12.5%; 
+    height: 12.5%; 
+}

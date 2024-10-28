@@ -1,0 +1,14 @@
+.square{
+   
+    font-size: 500px;
+    background-color: rgba(0, 0, 255, 0.651);
+}
+
+.child-div{
+    font-size: 25%;
+    background-color: blueviolet;
+}
+
+.child-div p{
+    font-size:50% ;
+}
