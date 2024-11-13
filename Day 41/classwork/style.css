@@ -1,0 +1,35 @@
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: aqua;
+    font-size: 50px;
+}
+
+button{
+    color: blueviolet;
+    background-color: black;
+    transition: 0.5s;
+
+}
+
+button:hover{
+    color: aqua;
+    background-color: blueviolet;
+    width: 120px;
+}
+
+img{
+    height: 20px;
+    width:40px ;
+    transition: 0.5s;
+}
+
+img:hover{
+    height:30px ;
+    width:50px ;
+
+}
