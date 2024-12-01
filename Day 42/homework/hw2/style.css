@@ -1,0 +1,11 @@
+table , th , td{
+    border: 3px solid rgb(5, 137, 21);
+    padding: 1px;
+    width: 50%;
+    font-size: 30px;
+
+}
+
+tr {
+    background-color:rgba(225, 213, 88, 0.615) ;
+}

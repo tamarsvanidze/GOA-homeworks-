@@ -1,0 +1,37 @@
+/* 2. */
+a:link {
+    color: blue;
+}
+
+/* 3.  */
+a:visited {
+    color: purple;
+}
+
+/* 4.  */
+a:hover {
+    color: white;
+    background-color: darkblue;
+}
+
+/* 5.  */
+a:active {
+    background-color: navy;
+    font-size: larger;
+}
+
+/* 6. */
+.text1 {
+    color: black;
+}
+.text1:hover {
+    color: darkgray;
+}
+
+/* 7. */
+.text2 {
+    text-decoration: none;
+}
+.text2:hover {
+    text-decoration: underline;
+}

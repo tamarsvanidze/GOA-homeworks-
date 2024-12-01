@@ -1,0 +1,11 @@
+table , th , td{
+    border: 3px solid rgb(205, 15, 135);
+    padding: 1px;
+    width: 50%;
+    font-size: 30px;
+
+}
+
+tr:nth-child(even):hover {
+    background-color:rgb(74, 228, 236) ;
+}

@@ -1,0 +1,10 @@
+table , th , td{
+    border: 3px solid blue;
+    padding: 1px;
+    width: 50%;
+
+}
+
+tr:nth-child(even) {
+    background-color:gray ;
+}

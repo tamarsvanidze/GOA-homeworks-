@@ -1,0 +1,52 @@
+.box {
+    width: 300px;
+    padding: 20px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.solid {
+    border: 4px solid #3498db;
+    font-size: 30px;
+}
+
+.dashed {
+    border: 4px dashed #e74c3c;
+    font-size: 30px;
+}
+
+.dotted {
+    border: 4px dotted #2ecc71;
+    font-size: 30px;
+}
+
+.double {
+    border: 6px double #9b59b6;
+    font-size: 30px;
+}
+
+.groove {
+    border: 6px groove #f39c12;
+    font-size: 30px;
+}
+
+.ridge {
+    border: 6px ridge #16a085;
+    font-size: 30px;
+}
+
+.inset {
+    border: 6px inset #34495e;
+    font-size: 30px;
+}
+
+.outset {
+    border: 6px outset #d35400;
+    font-size: 30px;
+}
+h1{
+    text-align: center;
+}
+
+
