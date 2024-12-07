@@ -1,0 +1,7 @@
+.ol1{
+    list-style-type: upper-roman;
+    padding-left: 40px;
+    font-size: 30px;
+    color: rgb(8, 162, 19);
+    background-color: black;
+}
