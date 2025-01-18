@@ -1,0 +1,19 @@
+ul li{
+    list-style-type: none;
+
+
+}
+
+
+
+
+.nav-menu{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    border: 3px dashed black;
+    background-color: aquamarine;
+
+}

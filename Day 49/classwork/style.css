@@ -1,0 +1,9 @@
+.div1{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+
+}

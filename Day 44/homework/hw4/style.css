@@ -1,0 +1,43 @@
+.ul1{
+    list-style-type: circle;
+}
+
+.ul2{
+    list-style-type: lower-roman ;
+}
+
+.ul3{
+    list-style-type: unset;
+}
+
+.ul4{
+    list-style-type: decimal-leading-zero;
+}
+
+.ul5{
+    list-style-type: georgian;
+}
+.ul6{
+    list-style-type: inherit;
+}
+
+.ul7{
+    list-style-type: initial;
+}
+
+.ul8{
+    list-style-type: none;
+}
+
+.ul9{
+    list-style-type: square;
+}
+
+.ul10{
+    list-style-type: disc;
+}
+
+
+.ul10{
+    list-style-type: upper-alpha;
+}

@@ -1,0 +1,24 @@
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    border: 3px solid darkblue;
+    margin: 30px;
+}
+
+
+.div2{
+    background-color: blueviolet;
+    width: 50%;
+    color: black;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 4px dashed  black;
+    
+
+}
