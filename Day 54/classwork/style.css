@@ -1,0 +1,69 @@
+.box1{
+    background-color: red;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.box2{
+    background-color: red;
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+
+.box3{
+   background-color:  red;
+   position: relative;
+   top: 100px;
+   left: 80px;
+}
+
+.box4{
+    background-color: red;
+    position: relative;
+    top: 150px;
+    left: 120px;
+}
+
+.box5{
+    background-color: red;
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+
+.box6{
+    background-color: red;
+    position: relative;
+    top: 250px;
+    left: 160px;
+}
+
+.box7{
+    background-color: red;
+    position: relative;
+    top: 300px;
+    left: 120px;
+}
+
+.box8{
+    background-color: red;
+    position: relative;
+    top: 350px;
+    left: 80px;
+}
+
+.box9{
+    background-color: red;
+    position: relative;
+    top: 400px;
+    left: 40px;
+}
+
+.box110{
+    background-color: red;
+    position: relative;
+    top: 450px;
+    left: 0;
+}

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2eae2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    background: url('image-product-desktop.jpg') center/cover no-repeat;
+    width: 50%;
+}
+
+.content {
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.category {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: #6c7289;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #1c232b;
+}
+
+.description {
+    font-size: 14px;
+    color: #6c7289;
+    margin-bottom: 15px;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+}
+
+.discounted-price {
+    font-size: 24px;
+    color: #3d8168;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.original-price {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #6c7289;
+}
+
+button {
+    background-color: #3d8168;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #dde9a7;
+}
