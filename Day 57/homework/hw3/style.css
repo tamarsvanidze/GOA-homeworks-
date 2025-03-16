@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.div-animation{
+    width: 150px;
+    height: 150px;
+    background-color: darkgreen;
+    transition: transform 1s, border-radius 0.6s , background-color 0.5s,  box-shadow 0.5s  ;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+.div-animation:hover {
+    transform: scale(1.5);
+    border-radius: 50%;
+    background-color: blue;
+    box-shadow: 0px 0px 20px rgba(0, 0, 255, 0.7);
+}
+
+
+.div-animation:active {
+    transform: rotate(720deg);
+    background-color: purple;
+    border-radius: 30px;
+    transition: transform 0.7s , background-color 0.7s ;
+    box-shadow: 0px 0px 25px rgba(128, 0, 128, 0.9);
+   
+}

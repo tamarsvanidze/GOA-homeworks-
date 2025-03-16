@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.img-div {
+    position: relative;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.5s ;
+}
+
+
+img:hover {
+    transform: translate(500px, 300px) rotateX(360deg);
+}
+
+
+img:active {
+    transform: scale(0.5) rotate(-90deg);
+    transition: transform 0.3s ;
+}

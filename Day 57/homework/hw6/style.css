@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.arrow {
+    font-size: 60px;
+    color: darkblue;
+    transition: transform 0.5s , color 0.4s ;
+}
+
+
+.arrow:hover {
+    transform: scale(1.5) translate(-100px, -50px) rotateX(180deg) rotateY(360deg);
+    color: red;
+    transition: transform 0.5s , color 0.4s ;
+}
+
+/* Active ეფექტი (დაჭერისას) */
+.arrow:active {
+    transform: rotate(-1040deg);
+    color: green;
+    transition: transform 0.7s , color 0.7s ;
+}

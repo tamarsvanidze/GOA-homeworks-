@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.cube{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    transition: 2s;
+    cursor: pointer;
+
+}
+
+.cube:hover{
+    transform:  rotate(1480deg) scale(2);
+}
+
+.cobe:active{
+    transform: rotate(-1480deg) scale(0.4);
+    background-color: blue;
+}

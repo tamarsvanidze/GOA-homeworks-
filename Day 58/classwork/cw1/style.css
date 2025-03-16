@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.div1{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    animation: changeColor 2s infinite alternate;
+}
+
+@keyframes changeColor {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: blue;
+    }
+}
