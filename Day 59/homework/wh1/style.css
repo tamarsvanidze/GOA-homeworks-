@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(257, 40%, 49%);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 60px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.content {
+  flex: 1;
+  max-width: 500px;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.register-btn {
+  display: inline-block;
+  background-color: white;
+  color: hsl(257, 40%, 49%);
+  padding: 15px 40px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+
+.illustration {
+  flex: 1;
+  max-width: 600px;
+}
+
+.illustration img {
+  width: 100%;
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.socials a {
+  margin-left: 20px;
+}
+
+.socials img {
+  width: 40px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s ease;
+}
+
+.socials img:hover {
+  transform: scale(1.2);
+}

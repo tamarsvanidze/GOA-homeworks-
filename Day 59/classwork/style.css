@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.div-animation {
+    width: 150px;
+    height: 150px;
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation-name: bird;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bird {
+    0% {
+        background-color: crimson;
+        color: white;
+        font-size: 20px;
+        transform: translateX(0) translateY(0) scale(1) rotate(0deg);
+    }
+    25% {
+        background-color: blue;
+        color: yellow;
+        font-size: 25px;
+        transform: translateX(200px) translateY(-100px) scale(1.2) rotate(45deg);
+    }
+    50% {
+        background-color: limegreen;
+        color: black;
+        font-size: 30px;
+        transform: translateX(400px) translateY(50px) scale(1.5) rotate(90deg);
+    }
+    75% {
+        background-color: orange;
+        color: navy;
+        font-size: 25px;
+        transform: translateX(200px) translateY(200px) scale(1.2) rotate(180deg);
+    }
+    100% {
+        background-color: crimson;
+        color: white;
+        font-size: 20px;
+        transform: translateX(0) translateY(0) scale(1) rotate(360deg);
+    }
+}
