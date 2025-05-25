@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .register-btn {
+    background-color: #ffd233;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 8%;
+    gap: 40px;
+  }
+  
+  .hero-left {
+    flex: 1;
+  }
+  
+  .hero-left h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-left p {
+    margin-bottom: 20px;
+    color: #333;
+    max-width: 500px;
+  }
+  
+  .email-box {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .email-box input {
+    padding: 12px 20px;
+    border-radius: 25px 0 0 25px;
+    border: 1px solid #ccc;
+    flex: 1;
+    outline: none;
+  }
+  
+  .get-started {
+    padding: 12px 20px;
+    background-color: #ffd233;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .phones-combined {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 815px;
+    height: 682px;
+  }
+  
+  
+  .students {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .circle {
+    background-color: #ffd233;
+    border-radius: 50%;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .hero-right .phones img {
+    max-width: 220px;
+    margin-left: -40px;
+  }
+  
+  .features {
+    padding: 80px 8%;
+  }
+  
+  .features-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  
+  .features-header .title h2 {
+    font-size: 2em;
+    max-width: 500px;
+  }
+  
+  .features-header .desc {
+    max-width: 400px;
+    color: #333;
+  }
+  
+  .features-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    background-color: #fff3c9;
+    padding: 25px;
+    border-radius: 20px;
+    flex: 1;
+    min-width: 300px;
+    max-width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .map-section {
+    text-align: center;
+    padding: 80px 8%;
+  }
+  
+  .map-heading h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .map-heading p {
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .map-image img {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .stat h3 {
+    font-size: 2em;
+    color: #000;
+  }
+  
+  .stat p {
+    color: #333;
+  }
+  
+  /* Download CTA Section */
+  .download-cta {
+    background-color: #fcd72c;
+    padding: 60px 8%;
+    text-align: center;
+  }
+  
+  .download-cta h2 {
+    font-size: 1.8em;
+    color: #000;
+    margin-bottom: 30px;
+  }
+  
+  .store-buttons img {
+    width: 160px;
+    margin: 0 10px;
+  }
+  
